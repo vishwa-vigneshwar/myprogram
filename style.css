@@ -1,43 +1,96 @@
- 
-    body{  
-      font-family: Calibri, Helvetica, sans-serif;  
-      background-color: rgb(175, 230, 173);  
-    }  
-    .container {  
-        padding: 50px;  
-      background-color: rgb(175, 230, 173); 
-    }  
-      
-    input[type=text], input[type=password], textarea {  
-      width: 100%;  
-      padding: 15px;  
-      margin: 5px 0 22px 0;  
-      display: inline-block;  
-      border: none;  
-      background: #f1f1f1;  
-    }  
-    input[type=text]:focus, input[type=password]:focus {  
-      background-color: rgb(0, 255, 0);  
-      outline: none;  
-    }  
-     div {  
-                padding: 10px 0;  
-             }  
-    hr {  
-      border: 1px solid #f1f1f1;  
-      margin-bottom: 25px;  
-    }  
-    .registerbtn {  
-      background-color: #4CAF50;  
-      color: white;  
-      padding: 16px 20px;  
-      margin: 8px 0;  
-      border: none;  
-      cursor: pointer;  
-      width: 100%;  
-      opacity: 0.9;  
-    }  
-    .registerbtn:hover {  
-      opacity: 1;  
-    }  
-    
+body{
+    margin:0;
+    padding:0;
+    background:#ffe;
+    font-size:12px;
+    overflow:auto
+}
+#mainDiv{
+    width:100%;
+    height:100%
+}
+#loveHeart{
+    float:left;
+    width:670px;
+    height:625px
+}
+#garden{
+    width:100%;
+    height:100%
+}
+#elapseClock{
+    text-align:right;
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom:10px
+}
+#words{
+    font-family:"sans-serif";
+    width:500px;
+    font-size:24px;
+    color:#666
+}
+#messages{
+    display:none
+}
+#elapseClock .digit{
+    font-family:"digit";
+    font-size:36px
+}
+#loveu{
+    padding:5px;
+    font-size:22px;
+    margin-top:80px;
+    margin-right:120px;
+    text-align:right;
+    display:none
+}
+#loveu .signature{
+    margin-top:10px;
+    font-size:20px;
+    font-style:italic
+}
+#clickSound{
+    display:none
+}
+#code{
+    float:left;
+    width:440px;
+    height:400px;
+    color:#333;
+    font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
+    font-size:12px
+}
+#code .string{
+    color:#2a36ff
+}
+#code .keyword{
+    color:#7f0055;
+    font-weight:bold
+}
+#code .placeholder{
+    margin-left:15px
+}
+#code .space{
+    margin-left:7px
+}
+#code .comments{
+    color:#3f7f5f
+}
+#copyright{
+    margin-top:10px;
+    text-align:center;
+    width:100%;
+    color:#666
+}
+#errorMsg{
+    width:100%;
+    text-align:center;
+    font-size:24px;
+    position:absolute;
+    top:100px;
+    left:0
+}
+#copyright a{
+    color:#666
+}
